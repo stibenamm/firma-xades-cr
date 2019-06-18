@@ -1,5 +1,5 @@
 <?php
-namespace RobRichards\XMLSecLibs;
+namespace Stibenamm\FirmaXadesCR\Overrides;
 
 use DOMDocument;
 use DOMElement;

@@ -3,10 +3,10 @@ require '../vendor/autoload.php';
 
 use Stibenamm\FirmaXadesCR\firmador;
 
-$pfx    = 'RepMyS_dev.p12'; // Ruta del archivo de la llave criptográfica (*.p12)
-$pin    = '2019'; // PIN de 4 dígitos de la llave criptográfica
-$xml    = 'FACe_50610061900310111085400200001010000000819136576840.xml'; // String XML ó Ruta del archivo XML (comprobante electrónico)
-$ruta   = 'FACe_50610061900310111085400200001010000000819136576840_firmado.XML'; // Ruta del nuevo arhivo XML cuando se desea guardar en disco
+$pfx    = ''; // Ruta del archivo de la llave criptográfica (*.p12)
+$pin    = ''; // PIN de 4 dígitos de la llave criptográfica
+$xml    = ''; // String XML ó Ruta del archivo XML (comprobante electrónico)
+$ruta   = ''; // Ruta del nuevo arhivo XML cuando se desea guardar en disco
 
 $firmador = new firmador();
 // Se firma XML y se recibe un string resultado en Base64
