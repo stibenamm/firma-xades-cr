@@ -5,6 +5,6 @@ Adaptación del proyecto [hacienda-firmador-php](https://github.com/enzojimenez/
 ### Instalación
 
 ```bash
-composer require stibenamm/firma-xades-cr
+composer require stibenamm/firma-xades-cr:dev-master
 ```
 
