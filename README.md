@@ -18,5 +18,5 @@ Route::get('/', function(){
   	$pin = '0000';
   	$archivo = $firmador->firmarXml($pfx,$pin,$xml,$firmador::TO_XML_STRING);
   	return response($archivo, '200')->header('Content-Type', 'text/xml');
-}
+});
 ```
